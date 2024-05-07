@@ -16,11 +16,13 @@ These were some events I helped organize at SBC
 
 ## Experience (Please refer to my resume!)
 
-**Data Scientist Intern @ Macy's | MIT Capstone (_Feb 2024 - Present_)**
+**Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
+- MIT Capstone
 - Building customer price range models and recommendation systems
 - Python, SQL, BigQuery, VertexAI
 
-**Data Scientist Intern @ Handle Global | MIT Analytics Lab (_Sep 2023 - Dec 2023_)**
+**Data Scientist Intern @ Handle Global (_Sep 2023 - Dec 2023_)**
+- MIT Analytics Lab
 - Comparing medical equipment prices to inflation and forecasting future prices
 - Python, ARIMA, Prophet
 
