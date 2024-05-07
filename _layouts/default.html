@@ -22,18 +22,16 @@
     {% endif %}
 
     <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-    {% if site.show_downloads %}
-      <ul class="downloads">
-        <li><a href="https://www.linkedin.com/in/vincentian/">LinkedIn</a></li>
-      </ul>
-    {% endif %}
   </header>
+
   <section>
-
-    {{ content }}
-
+    <h2>Connect on LinkedIn</h2>
+    <p>Feel free to connect with me on LinkedIn for professional networking and updates:</p>
+    <ul class="linkedin-links">
+      <li><a href="https://www.linkedin.com/in/vincentian/">LinkedIn Profile</a></li>
+    </ul>
   </section>
+  
   <footer>
     {% if site.github.is_project_page %}
       <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
