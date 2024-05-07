@@ -7,9 +7,9 @@
 
 **Cross Registered, Data Science @ Harvard (_Spring 2024_)**	
 
-**B.Sc, Maths and Stats	@ The University of Melbourne (_December 2020_)**	 		
+**B.Sc, Mathematics and Statistics	@ The University of Melbourne (_December 2020_)**	 		
 
-**Study Aborad, Stats @ University College London (_Spring 2019_)**
+**Study Abroad, Statistics @ University College London (_Spring 2019_)**
 
 ## Experience
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
