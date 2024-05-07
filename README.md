@@ -194,6 +194,8 @@ This is testament to DALL-E 3’s ability to generate convincing images, but als
 
 <u>GetReal Chrome Extension!</u>
 
+We also embedded the models into a Chrome Extension which can be used to determine if images online are real of fake!
+
 **Tools: Python (Keras, TensorFlow), GenAI (Gemini, DALL-E 2, DALL-E 3)**
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
