@@ -37,7 +37,14 @@ These were some events I helped organize at SBC
 # Check out some of my projects!
 
 ### AI-Driven Chat Sentiment Insights (Work in Progress 🔨)
-[Test-MVP](https://bri3f.ai/dashboard)
+
+Currently leading a team to develop the first end-to-end AI-powered analytics tool that scrapes text data from Telegram, Discord (TBD) and Twitter (TBD) to generate personalized market and sentiment analysis insights using LLMs. 
+
+We are still working on the initial product but these are some snapshots of what we have built so far!
+ 
+
+<img src="[https://example.com/image.jpg](https://github.com/vtian72/portfolio/blob/main/assets/img/tool.png)" alt="Tool">
+
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
