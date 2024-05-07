@@ -48,19 +48,19 @@ We will be using AWS (S3, DynamoDB) to store our data.
 
 We are still working on the initial product but these are some snapshots of what we have built so far!
 
-**User Logs In By Connecting Their Wallet**
+<u>User logs in by connecting their wallet</u>
 
 ![Wallet](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/wallet.png)
 
-**Authentication Process**
+<u>Authentication Process</u>
 
 ![Authentication](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/authentication.png)
 
-**Select Which Chats to Analyze**
+<u>Select Which Chats To Analyze</u>
 
 ![Chats](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/chats.png)
 
-**Final Product View**
+<u>Final Product View</u>
 
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
