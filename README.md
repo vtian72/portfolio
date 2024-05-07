@@ -39,6 +39,7 @@ These were some events I helped organize at SBC
 ### AI-Driven Chat Sentiment Insights 
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers?
+[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Get Real: Real vs Fake Image Detection
 
