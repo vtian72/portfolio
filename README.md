@@ -46,19 +46,7 @@ In our product workflow, when a user links their social media accounts, we autom
 
 We will be using AWS (S3, DynamoDB) to store our data.
 
-We are still working on the initial product but these are some snapshots of what we have built so far!
-
-<u>User logs in by connecting their wallet</u>
-
-![Wallet](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/wallet.png)
-
-<u>Authentication Process</u>
-
-![Authentication](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/authentication.png)
-
-<u>Select Which Chats To Analyze</u>
-
-![Chats](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/chats.png)
+We are still working on the initial product but here is a sneak peek of what we have built so far!
 
 <u>Final Product View</u>
 
