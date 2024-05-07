@@ -211,6 +211,48 @@ The objective for this project was to help a global microchip producer design an
 
 <u>Baseline</u>
 
+We developed a baseline model for addressing this problem, known as the Yan-Tian Greedy Algorithm. The primary concept behind this approach involves a systematic iteration through all incoming orders. For each order, we initiate a search through available warehouses and their corresponding freight options, starting from the beginning of the list. The algorithm then assigns the order to the first suitable warehouse-freight pair it encounters, following a thorough evaluation to ensure that all necessary conditions are met before making the assignment. The cost of solution produced by the baseline model is $8,878,241.89.
+
+<u>Formulating the Optimization Problem</u>
+
+The overall objective function that we were minimizing was:
+
+min(Warehouse Cost + Transportation Cost)
+
+Some constraints that we needed to account for:
+
+- each order needs to be assigned to a warehouse
+- each order needs to be assigned to a freight assignment
+- each warehouse has a daily order capacity
+- each product can be stored in some warehouses only
+- some warehouses can only service certain customers
+- each warehouse can only begin transporting things via some specific warehouse ports
+- orders need to be shipped within a certain time
+- different parts of the carrier should not exceed a maximum weight
+
+<u>Exploratory Data Analysis</u>
+
+![EDA1](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/warehouse_to_port.png)
+
+This shows that most warehouses are connected to only a single warehouse port and many warehouses are connected to warehouse port 4, which suggests that many warehouses may only be sent via one freight and many orders may be sent through freights going through wwarehouse port 4.
+
+![EDA2](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/cost_perUnit_daily_order_capacity.png)
+
+Most warehouses have negative correlation between cost per unit cost and daily order capacity. We should expect the warehouses with lower cost per unit to have the most number of orders allocated to it.
+
+<u>Results</u>
+
+![Results](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/sankey.png)
+
+The above Sankey shows the optimal warehouse and freight allocation for each of 1000 orders. As from our EDA we can see that the optimal solution includes:
+- many orders to pass through warehouse port 4
+- many orders allocated to warehouse 3 and warehouse 11 due to their lower daily cost per unit
+- not many orders allocated to warehouse 15, 16 or 18 due to their high daily cost.
+
+The final solution resulted in a cost of $5,365,566,57 which is $3,512,675.32 or 39.5% less than the baseline solution.
+
+**Tools: Python, Julia/JuMP(Gurobi)**
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Enhancing_Efficiency_in_Microchip_Distribution__Strategic_Supply_Chain_Route_Optimization.pdf)
 
 ## Other projects you can check out!
