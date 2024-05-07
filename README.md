@@ -62,7 +62,7 @@ GPT-2 and GPT DaVinci were finetuned on 1k/48k rows of data from the Shakesclear
 
 To fine-tune GPT-2 a specialized formatting was adopted. Each row of data was transformed into the following:
 
-<s> (start token) + English translation + </s> (end token) + >>>> + <p> (start token for Shakespeare translation) + Shakespearean translation + </p> (end token for Shakespeare translation)
+\<s> (start token) + English translation + \</s> (end token) + >>>> + \<p> (start token for Shakespeare translation) + Shakespearean translation + \</p> (end token for Shakespeare translation)
 
 Since DaVinci as inherest prompt-completion functionality, we structured the dataset as:
 
