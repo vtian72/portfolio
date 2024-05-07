@@ -131,9 +131,34 @@ Our dataset comprises 6,000 images. We randomly sampled 3,000 real product image
 
 We applied transfer learning on the following models with only the output layer trained. 
 
-1. **VGG-19**, which consists of 19 layers (including 16 convolutional layers, 3 fully connected layers, 5 MaxPooling layers and 1 softmax layer), and it is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
-2. **ResNet50**, which comprises “skip connections” that allow gradients to flow through the network directly without passing through non-linear activation functions, and alleviates the vanishing gradient problem and enable the network to converge faster, allowing for the training for very deep networks.6 This helps in learning complex and subtle patterns, while improving training efficiency.
-3. **EfficientNet** series, which are CNNs that use a compound scaling method to scale network width, depth and resolution. They use Mobile Inverted Bottleneck Convolution (MBConv) blocks in its architecture to focus on the most informative features of the input data, and are designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
+1. **VGG-19**, which consists of 19 layers and is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
+2. **ResNet50**, comprises “skip connections” which alleviates the vanishing gradient problem, allowing for the training for very deep networks. This helps in learning complex and subtle patterns, while improving training efficiency.
+3. **EfficientNet** designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
+
+<u>Results</u>
+
+The following models were trained using the A-100 GPU on Google Colab.
+
+| Model            | Accuracy | AUC   | False (-)ve Rate | DALL-E 3 Accuracy | Training Time (s) |
+|------------------|----------|-------|------------------|-------------------|-------------------|
+| VGG-19 (20 epochs)| 95.11%  | 99.03%| 6.62%            | 24.00%            | 245               |
+| ResNet50 (20 epochs)| 99.00% | 99.95%| 0.45%            | 48.84%            | 270               |
+| EfficientNetB0 (20 epochs)| 99.22%| 99.97%| 0.45%       | 50.39%            | 293               |
+| EfficientNetB3 (20 epochs)| 99.00%| 99.98%| 0.89%       | 46.51%            | 515               |
+| EfficientNetB7 (20 epochs)| 99.44%| 99.93%| 0.88%       | 48.06%            | 1431              |
+
+The results show that VGG-19 may not be the best at discerning the false images from the real images, as the number of False Negatives are still quite high. The confusion matrix for the 900 test images are
+
+### Figure 3.1: Confusion Matrix for Fine-tuned VGG 19 model over 20 epochs
+
+|                 | **Predicted Labels**   |                    |
+|-----------------|-----------------------|--------------------|
+| **Actual Labels** | **Fake**              | **Real**           |
+| **Fake**          | True Negatives: 419   | False Negatives: 31|
+|                 | Model correctly identifies images as fake | Model fails to flag out an image as fake |
+| **Real**         | False Positives: 13   | True Positives: 437|
+|                 | Model erroneously flags out an image as false when it is actually real. | Model correctly identifies image as real |
+
 
 **Tools: Python (Keras, TensorFlow), GenAI (Gemini, DALL-E 2, DALL-E 3)**
 
