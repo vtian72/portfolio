@@ -121,9 +121,9 @@ In comparison, ResNet50 was able to improve drastically compared to VGG19 in the
 To mimic real-world conditions and test our hypothesis on whether the model performs better on older GenAI models, we also created a variety of GenAI images on newer GenAI models like DALL-E 3, which are unseen to our model. Expectedly, our model performs poorly on the DALL-E 3 dataset. We compared the fine-tuned models fine-tuned over 20 epochs for consistency. EfficientNetB0 performs best on the unseen GenAI data, due to its advanced architecture features like the squeeze-and-excitation optimization and MBConv blocks that allow it to learn both coarse and fine features from the data and make them more adaptable to different types of images. 
 
 Of the 129 DALL-E 3 images tested, the following results were derived:
-VGG-19 model: 24.31% accuracy (31 correct; 98 incorrectly predicted as real)
-ResNet50 model: 48.43% accuracy (63 correct; 66 incorrectly predicted as real)
-EfficientNetB0: 50.39% accuracy (65 correct; 64 incorrectly predicted as real)
+- VGG-19 model: 24.31% accuracy (31 correct; 98 incorrectly predicted as real)
+- ResNet50 model: 48.43% accuracy (63 correct; 66 incorrectly predicted as real)
+- EfficientNetB0: 50.39% accuracy (65 correct; 64 incorrectly predicted as real)
 
 This is testament to DALL-E 3’s ability to generate convincing images, but also highlights the challenges in updating detection algorithms to keep up with the advancements in GenAI image generation.
 
