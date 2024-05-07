@@ -121,6 +121,16 @@ Today, GenAI has the capability to produce realistic product images swiftly, sig
 
 <u>Data</u>
 
+Our dataset comprises 6,000 images. We randomly sampled 3,000 real product images from the Amazon Berkeley Objects dataset and ran it through Google Gemini Pro to generate a one-line image caption of the object. These descriptions are then used to generate a “like-for-like” fake product image dataset comprising 3000 images using DALL-E 2, to create balanced classes for training our dataset. In creating our “real” product dataset, we made the effort to select a variety of product types against varying backgrounds. This is so that we are able to train a model on the diverse range of images a GenAI model can produce.
+
+<u>Model Training</u>
+
+We applied transfer learning on the following models with only the output layer trained. 
+
+1. VGG-19, which consists of 19 layers (including 16 convolutional layers, 3 fully connected layers, 5 MaxPooling layers and 1 softmax layer), and it is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
+2. ResNet50, which comprises “skip connections” that allow gradients to flow through the network directly without passing through non-linear activation functions, and alleviates the vanishing gradient problem and enable the network to converge faster, allowing for the training for very deep networks.6 This helps in learning complex and subtle patterns, while improving training efficiency.
+3. EfficientNet series, which are CNNs that use a compound scaling method to scale network width, depth and resolution. They use Mobile Inverted Bottleneck Convolution (MBConv) blocks in its architecture to focus on the most informative features of the input data, and are designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
+
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
 
