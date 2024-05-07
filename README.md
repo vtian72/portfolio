@@ -48,8 +48,6 @@ We will be using AWS (S3, DynamoDB) to store our data.
 
 We are still working on the initial product but here is a sneak peek of what we have built so far!
 
-<u>Final Product View</u>
-
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
