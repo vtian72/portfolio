@@ -43,7 +43,7 @@ Currently leading a team to develop the first end-to-end AI-powered analytics to
 We are still working on the initial product but these are some snapshots of what we have built so far!
  
 
-<img src="[https://example.com/image.jpg](https://github.com/vtian72/portfolio/blob/main/assets/img/tool.png)" alt="Tool">
+![Tool Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
