@@ -147,18 +147,35 @@ The following models were trained using the A-100 GPU on Google Colab.
 | EfficientNetB3 (20 epochs)| 99.00%| 99.98%| 0.89%       | 46.51%            | 515               |
 | EfficientNetB7 (20 epochs)| 99.44%| 99.93%| 0.88%       | 48.06%            | 1431              |
 
-The results show that VGG-19 may not be the best at discerning the false images from the real images, as the number of False Negatives are still quite high. The confusion matrix for the 900 test images are
+The following show the confusion matrix on 900 samples of testing data.
 
-### Figure 3.1: Confusion Matrix for Fine-tuned VGG 19 model over 20 epochs
+True Negative: Model correctly identifies images as fake
+True Positive:Model correctly identifies image as real
+False Negative: Model fails to flag out an image as fake
+False Positive: Model erroneously flags out an image as false when it is actually real
+
+
+<u>Figure 3.1: Confusion Matrix for Fine-tuned VGG 19 model over 20 epochs</u>
 
 |                 | **Predicted Labels**   |                    |
 |-----------------|-----------------------|--------------------|
 | **Actual Labels** | **Fake**              | **Real**           |
 | **Fake**          | True Negatives: 419   | False Negatives: 31|
-|                 | Model correctly identifies images as fake | Model fails to flag out an image as fake |
 | **Real**         | False Positives: 13   | True Positives: 437|
-|                 | Model erroneously flags out an image as false when it is actually real. | Model correctly identifies image as real |
 
+The results show that VGG-19 may not be the best at discerning the false images from the real images, as the number of False Negatives are still quite high. 
+
+<u>Figure 3.2: Confusion Matrix for Fine-tuned ResNet50 model over 20 epochs</u>
+
+|                 | **Predicted Labels**   |                    |
+|-----------------|-----------------------|--------------------|
+| **Actual Labels** | **Fake**              | **Real**           |
+| **Fake**          | True Negatives: 448   | False Negatives: 2|
+| **Real**         | False Positives: 7   | True Positives: 443|
+
+In comparison, ResNet50 was able to improve drastically compared to VGG19 in the number of False Positives and False Negatives, i.e we are now able to flag out fake images as image and real images as real better.
+
+<u>Performance on newer GenAI models</u>
 
 **Tools: Python (Keras, TensorFlow), GenAI (Gemini, DALL-E 2, DALL-E 3)**
 
