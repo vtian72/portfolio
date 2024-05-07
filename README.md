@@ -42,11 +42,27 @@ These were some events I helped organize at SBC
 
 Currently leading a team to develop the first end-to-end AI-powered analytics tool that scrapes text data from Telegram, Discord (TBD) and Twitter (TBD) to generate personalized market and sentiment analysis insights using LLMs. 
 
+In our product workflow, when a user links their social media accounts, we automatically gather all their message data. Subsequently, we employ conventional techniques like Named Entity Recognition (NER) and TF-IDF to extract valuable features. These features are then transformed into embeddings, which are used to cluster related messages. Finally, we feed this clustered data into a Language Model (LM) such as GPT-3, GPT-4, or Gemini to generate the final outputs. Looking ahead, we plan to refine our LM model further using Reinforcement Learning from Human Feedback (RLHF), by presenting it with examples of effective and useful summaries.
+
+We will be using AWS (S3, DynamoDB) to store our data.
+
 We are still working on the initial product but these are some snapshots of what we have built so far!
- 
 
-![Tool Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
+**User Logs In By Connecting Their Wallet**
 
+![Wallet](https://github.com/vtian72/portfolio/blob/main/assets/img/wallet.png)
+
+**Authentication Process**
+
+![Authentication](https://github.com/vtian72/portfolio/blob/main/assets/img/authentication.png)
+
+**Select Which Chats to Analyze**
+
+![Chats](https://github.com/vtian72/portfolio/blob/main/assets/img/chats.png)
+
+**Final Product View**
+
+![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
