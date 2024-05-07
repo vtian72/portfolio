@@ -1,6 +1,6 @@
-# Hi I'm Vincent 😊
+# Welcome to my website!
 
-I'm a current Master's of Business Analytics student at MIT. Before coming to MIT I worked for ~3 years as a data scientist across health & government and retail product analytics.
+My name is Vincent and I'm a current Master's of Business Analytics student at MIT. Prior to joining MIT I worked for ~3 years as a data scientist across health & government and retail product analytics.
 
 ## Education
 
