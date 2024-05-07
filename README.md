@@ -54,7 +54,7 @@ We are still working on the initial product but here is a sneak peek of what we 
 
 <u>Goal</u>
 
-The primary goal of the project is to determine how effectively generative AI models can replicate the distinctive writing style of William Shakespeare. This involves developing a quantitative benchmark to measure the fidelity of these models in capturing the depth, style, and subtleties of Shakespearean English. The project aims to transition from qualitative assessments to a structured, automatic, and quantifiable evaluation methodology, enhancing the capabilities of AI in reproducing complex literary styles.
+The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score.
 
 <u>Finetuning</u>
 
@@ -78,7 +78,6 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 | GPT-DaVinci         | 79.69%           | 5.59%      | 19.59%        | 87.74%            | 23.56%             | 80.88%     |
 | Style Transformer A | 28.66%           | 7.21%      | 22.91%        | 93.45%            | 36.38%             | 76.66%     |
 | Style Transformer B | 34.23%           | 7.32%      | 20.91%        | 93.30%            | 34.40%             | 78.20%     |
-
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
