@@ -317,7 +317,7 @@ Sem 2 - 2020
 Sem 1 - 2020
 - MAST20009 Vector Calculus
 - MAST20026 Real Analysis
-- MAST30025 Linear Statistical odels
+- MAST30025 Linear Statistical Models
 - COMP30027 Machine Learning
   
 Sem 2 - 2019
