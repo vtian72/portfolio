@@ -79,6 +79,38 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 | Style Transformer A | 28.66%           | 7.21%      | 22.91%        | 93.45%            | 36.38%             | 76.66%     |
 | Style Transformer B | 34.23%           | 7.32%      | 20.91%        | 93.30%            | 34.40%             | 78.20%     |
 
+Example 1
+
+|--------------------|--------------------------------------------------------------------|
+| English            | My generosity to you is limitless as the sea, and my love is as deep |
+| Shakespeare        | My bounty is boundless as the sea, My love as deep                 |
+| GPT-2              | My goodness to thee is as infinite as the sea, And my love as deep |
+| GPT-DaVinci        | My love to you is sound, sans crack or flaw                        |
+| Style Transformer A| I’m boundless, love is deep                                        |
+| Style Transformer B| I’m boundless, love is deep                                        |
+
+Example 2
+
+|--------------------|--------------------------------------------------------------------|
+| English            | I’ll frown at them as they pass by, and they can react however they want |
+| Shakespeare        | I will frown as I pass by, and let them take it as they list       |
+| GPT-2              | I’ll frown at them as they pass by, And they may be as they will   |
+| GPT-DaVinci        | I’ll set upon them as they pass along                              |
+| Style Transformer A| I’ll frown and let them take it as they list it                    |
+| Style Transformer B| I’ll frown and let them take it as a listing                       |
+
+Example 3
+
+|--------------------|--------------------------------------------------------------------|
+| English            | Please, sir, have patience                                         |
+| Shakespeare        | I do beseech you, sir, have patience                               |
+| GPT-2              | I pray you, sir, patience, I pray you sir, patience, I pray you    |
+| GPT-DaVinci        | Pray you, sir, have patience                                       |
+| Style Transformer A| I beg your, sir, be patient                                        |
+| Style Transformer B| I beg your, sir, be patient                                        |
+
+
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Get Real: Real vs Fake Image Detection 🪪
