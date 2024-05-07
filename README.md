@@ -4,8 +4,11 @@
 
 ## Education
 **M.BAn, Analytics @ MIT (_August 2024_)**	
+
 **Cross Registered, Data Science @ Harvard (_Spring 2024_)**	
+
 **B.Sc, Maths and Stats	@ The University of Melbourne (_December 2020_)**	 		
+
 **Study Aborad, Stats @ University College London (_Spring 2019_)**
 
 ## Experience
