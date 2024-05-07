@@ -14,7 +14,7 @@ These were some events I helped organize at SBC
 - MIT x OP Crypto Lunch - Oct 26, 2023
 - MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
 
-## Experience (Please find more detail on my resume!)
+## Experience (Please refer to my resume!)
 
 **Data Scientist Intern @ Macy's | MIT Capstone (_Feb 2024 - Present_)**
 - Building customer price range models and recommendation systems
