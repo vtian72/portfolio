@@ -52,71 +52,6 @@ We are still working on the initial product but here is a sneak peek of what we 
 
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
-### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
-
-<u>Goal</u>
-
-The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score.
-
-<u>Finetuning</u>
-
-GPT-2 and GPT DaVinci were finetuned on 1k/48k rows of data from the Shakescleare dataset, consisting of modern English passages alongside their Shakespearean translation. We also utilized the output by the Style Transformer model (Reformulating Unsupervised Style Transfer as Paraphrase Generation, by Kalpesh Krishna, John Wieting, Mohit Iyyer).
-
-To **fine-tune GPT-2 a specialized formatting was adopted**. Each row of data was transformed into the following:
-
-\<s> (start token) + English translation + \</s> (end token) + >>>> + \<p> (start token for Shakespeare translation) + Shakespearean translation + \</p> (end token for Shakespeare translation)
-
-Since **DaVinci has inherent prompt-completion functionality**, we structured the dataset as:
-
-prompt: System role: You are an expert author on Shakespeare. Write the following quote like how Shakespeare would say it: + English translation
-
-completion: This is how Shakespeare would say it: + Shakespearean translation
-
-<u>Results</u>
-
-| Model Output        | Style Classifier | BLEU Score | Rouge-N Score | Cosine Similarity | Jaccard Similarity | PINC Score |
-|---------------------|------------------|------------|---------------|-------------------|--------------------|------------|
-| GPT-2               | 53.21%           | 6.74%      | 14.52%        | 83.29%            | 19.76%             | 85.61%     |
-| GPT-DaVinci         | 79.69%           | 5.59%      | 19.59%        | 87.74%            | 23.56%             | 80.88%     |
-| Style Transformer A | 28.66%           | 7.21%      | 22.91%        | 93.45%            | 36.38%             | 76.66%     |
-| Style Transformer B | 34.23%           | 7.32%      | 20.91%        | 93.30%            | 34.40%             | 78.20%     |
-
-Example 1
-
-|--------------------|--------------------------------------------------------------------|
-| English            | My generosity to you is limitless as the sea, and my love is as deep |
-| Shakespeare        | My bounty is boundless as the sea, My love as deep                 |
-| GPT-2              | My goodness to thee is as infinite as the sea, And my love as deep |
-| GPT-DaVinci        | My love to you is sound, sans crack or flaw                        |
-| Style Transformer A| I’m boundless, love is deep                                        |
-| Style Transformer B| I’m boundless, love is deep                                        |
-
-Example 2
-
-|--------------------|--------------------------------------------------------------------|
-| English            | I’ll frown at them as they pass by, and they can react however they want |
-| Shakespeare        | I will frown as I pass by, and let them take it as they list       |
-| GPT-2              | I’ll frown at them as they pass by, And they may be as they will   |
-| GPT-DaVinci        | I’ll set upon them as they pass along                              |
-| Style Transformer A| I’ll frown and let them take it as they list it                    |
-| Style Transformer B| I’ll frown and let them take it as a listing                       |
-
-Example 3
-
-|--------------------|--------------------------------------------------------------------|
-| English            | Please, sir, have patience                                         |
-| Shakespeare        | I do beseech you, sir, have patience                               |
-| GPT-2              | I pray you, sir, patience, I pray you sir, patience, I pray you    |
-| GPT-DaVinci        | Pray you, sir, have patience                                       |
-| Style Transformer A| I beg your, sir, be patient                                        |
-| Style Transformer B| I beg your, sir, be patient                                        |
-
-The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
-
-**Tools: Python, LLMs (GPT-2, GPT-DaVinci)**
-
-[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
-
 ### Get Real: Real vs Fake Image Detection 🪪
 
 <u>Goal</u>
@@ -201,6 +136,72 @@ We also embedded the models into a Chrome Extension which can be used to determi
 **Tools: Python (Keras, TensorFlow), GenAI (Gemini, DALL-E 2, DALL-E 3)**
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
+
+
+### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
+
+<u>Goal</u>
+
+The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score.
+
+<u>Finetuning</u>
+
+GPT-2 and GPT DaVinci were finetuned on 1k/48k rows of data from the Shakescleare dataset, consisting of modern English passages alongside their Shakespearean translation. We also utilized the output by the Style Transformer model (Reformulating Unsupervised Style Transfer as Paraphrase Generation, by Kalpesh Krishna, John Wieting, Mohit Iyyer).
+
+To **fine-tune GPT-2 a specialized formatting was adopted**. Each row of data was transformed into the following:
+
+\<s> (start token) + English translation + \</s> (end token) + >>>> + \<p> (start token for Shakespeare translation) + Shakespearean translation + \</p> (end token for Shakespeare translation)
+
+Since **DaVinci has inherent prompt-completion functionality**, we structured the dataset as:
+
+prompt: System role: You are an expert author on Shakespeare. Write the following quote like how Shakespeare would say it: + English translation
+
+completion: This is how Shakespeare would say it: + Shakespearean translation
+
+<u>Results</u>
+
+| Model Output        | Style Classifier | BLEU Score | Rouge-N Score | Cosine Similarity | Jaccard Similarity | PINC Score |
+|---------------------|------------------|------------|---------------|-------------------|--------------------|------------|
+| GPT-2               | 53.21%           | 6.74%      | 14.52%        | 83.29%            | 19.76%             | 85.61%     |
+| GPT-DaVinci         | 79.69%           | 5.59%      | 19.59%        | 87.74%            | 23.56%             | 80.88%     |
+| Style Transformer A | 28.66%           | 7.21%      | 22.91%        | 93.45%            | 36.38%             | 76.66%     |
+| Style Transformer B | 34.23%           | 7.32%      | 20.91%        | 93.30%            | 34.40%             | 78.20%     |
+
+Example 1
+
+|--------------------|--------------------------------------------------------------------|
+| English            | My generosity to you is limitless as the sea, and my love is as deep |
+| Shakespeare        | My bounty is boundless as the sea, My love as deep                 |
+| GPT-2              | My goodness to thee is as infinite as the sea, And my love as deep |
+| GPT-DaVinci        | My love to you is sound, sans crack or flaw                        |
+| Style Transformer A| I’m boundless, love is deep                                        |
+| Style Transformer B| I’m boundless, love is deep                                        |
+
+Example 2
+
+|--------------------|--------------------------------------------------------------------|
+| English            | I’ll frown at them as they pass by, and they can react however they want |
+| Shakespeare        | I will frown as I pass by, and let them take it as they list       |
+| GPT-2              | I’ll frown at them as they pass by, And they may be as they will   |
+| GPT-DaVinci        | I’ll set upon them as they pass along                              |
+| Style Transformer A| I’ll frown and let them take it as they list it                    |
+| Style Transformer B| I’ll frown and let them take it as a listing                       |
+
+Example 3
+
+|--------------------|--------------------------------------------------------------------|
+| English            | Please, sir, have patience                                         |
+| Shakespeare        | I do beseech you, sir, have patience                               |
+| GPT-2              | I pray you, sir, patience, I pray you sir, patience, I pray you    |
+| GPT-DaVinci        | Pray you, sir, have patience                                       |
+| Style Transformer A| I beg your, sir, be patient                                        |
+| Style Transformer B| I beg your, sir, be patient                                        |
+
+The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
+
+**Tools: Python, LLMs (GPT-2, GPT-DaVinci)**
+
+[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Strategic Microchip Supply Chain Route Optimization 🚢
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Enhancing_Efficiency_in_Microchip_Distribution__Strategic_Supply_Chain_Route_Optimization.pdf)
