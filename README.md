@@ -261,11 +261,15 @@ The final solution resulted in a cost of $5,365,566,57 which is $3,512,675.32 or
 
 ![Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/fetal_health.png)
 
+**Tools: Python, SMOTE**
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Fetal%20Health%20Classification.pdf)
 
 ### Enhancing Automotive Customer Segmentation through Comprehensive Imputation Techniques 
 
 ![Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/ml.png)
+
+**Tools: Python, Julia/JuMP**
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/ML%20report.pdf)
 
