@@ -1,6 +1,7 @@
 # Data Scientist
 
-#### Technical Skills: Python, R, SQL, GCP, Snowflake, PowerBI
+#### Programming: Python, R, SQL
+#### Tools:  GCP, Snowflake, PowerBI
 
 ## Education
 
