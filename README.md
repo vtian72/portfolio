@@ -38,7 +38,7 @@ These were some events I helped organize at SBC
 
 # Check out some of my projects!
 
-### AI-Driven Chat Sentiment Insights (Work in Progress 🔨)
+## AI-Driven Chat Sentiment Insights (Work in Progress 🔨)
 
 Currently leading a team to develop the first end-to-end AI-powered analytics tool that scrapes text data from Telegram, Discord (TBD) and Twitter (TBD) to generate personalized market and sentiment analysis insights using LLMs. 
 
@@ -52,7 +52,7 @@ We are still working on the initial product but here is a sneak peek of what we 
 
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
-### Get Real: Real vs Fake Image Detection 🪪
+## Get Real: Real vs Fake Image Detection 🪪
 
 <u>Goal</u>
 
@@ -138,7 +138,7 @@ We also embedded the models into a Chrome Extension which can be used to determi
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
 
 
-### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
+## Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
 
 <u>Goal</u>
 
@@ -203,10 +203,10 @@ The results table indicates that no single model outperforms others across all m
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
-### Strategic Microchip Supply Chain Route Optimization 🚢
+## Strategic Microchip Supply Chain Route Optimization 🚢
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Enhancing_Efficiency_in_Microchip_Distribution__Strategic_Supply_Chain_Route_Optimization.pdf)
 
-### Fetal Health Classification Using Cardiotocography Data 👶
+## Fetal Health Classification Using Cardiotocography Data 👶
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Fetal%20Health%20Classification.pdf)
 
 
