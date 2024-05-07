@@ -36,7 +36,15 @@ These were some events I helped organize at SBC
 
 # Check out some of my projects!
 
+### AI-Driven Chat Sentiment Insights 
 
+### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers?
+
+### Get Real: Real vs Fake Image Detection
+
+### Strategic Microchip Supply Chain Route Optimization 
+
+### Fetal Health Classification Using Cardiotocography Data
 
 
 
