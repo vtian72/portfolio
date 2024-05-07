@@ -1,8 +1,6 @@
-# Data Scientist
+# Hi I'm Vincent 😊
 
-**Programming: Python, R, SQL**
-
-**Tools: GCP, Snowflake, PowerBI**
+I'm a current Master's of Business Analytics student at MIT. Before coming to MIT I worked for ~3 years as a data scientist across health & government and retail product analytics.
 
 ## Education
 
@@ -15,6 +13,12 @@ Shorter term studies
 
 | Cross Registered, Data Science         | Harvard                             | Spring 2024     |
 | Study Abroad, Statistics               | University College London           | Spring 2019     |
+
+## Technical Skills
+
+**Programming: Python, R, SQL**
+
+**Tools: GCP, Snowflake, PowerBI**
 
 ## Experience
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
