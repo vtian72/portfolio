@@ -1,7 +1,6 @@
 # Data Scientist
 
-#### Programming: Python, R, SQL, Julia, Java, C, MATLAB, SAS
-#### Tools: GCP, Snowflake, AWS, Azure, PowerBI
+#### Technical Skills: Python, R, SQL, GCP, Snowflake, AWS, Azure, PowerBI
 
 ## Education
 
