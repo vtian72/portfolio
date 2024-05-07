@@ -1,6 +1,6 @@
 title: Vincent Tian
 logo: /assets/img/headshot.png
 description: Hi, I am Vincent. Welcome to my website!
-# show_downloads: true
+show_downloads: true
 theme: jekyll-theme-minimal
 
