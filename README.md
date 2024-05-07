@@ -8,10 +8,8 @@ I'm currently...
 
 These were some events I helped organize at SBC
 
-- AMA: Web3 VC and recruiting opportunities - Apr 18, 2024
 - Web3 Entrepreneurship with Avalanche's Global Accelerator - Feb 14, 2024
 - AMA: Bitcoin Pizza Party - Nov 21, 2023
-- MIT x OP Crypto Lunch - Oct 26, 2023
 - MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
 
 ## Experience (Please refer to my resume!)
