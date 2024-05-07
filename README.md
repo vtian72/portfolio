@@ -30,9 +30,9 @@
 - AMA: Web3 VC and recruiting opportunities - Apr 18, 2024
 - Web3 with Sam Broner from a16z - Feb 20, 2024
 - Web3 Entrepreneurship with Avalanche's Global Accelerator - Feb 14, 2024
-- Being a founder in Web3: Perspectives from Orange DAO (founded by Y Combinator alum) - Nov 28, 2023
+- Being a founder in Web3: Orange DAO (founded by YC Alum) - Nov 28, 2023
 - AMA: Bitcoin Pizza Party - Nov 21, 2023
-- MIT x HBS Blockchain Club - Asset Tokenization & Decentralized Physical Infrastructure Networks (DePIN) - Nov 15, 2023
+- MIT x HBS Blockchain Club - Asset Tokenization & DePIN Networks - Nov 15, 2023
 - MIT x OP Crypto Lunch - Oct 26, 2023
 - MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
 
