@@ -278,3 +278,30 @@ Our task at hand is to assist the manager in accurately predicting the appropria
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/ML%20report.pdf)
 
+## Education
+
+- MBAn, Business Analytics @ MIT (Aug 2024)
+- BSc, Mathematics and Statistics @ University of Melbourne 
+- Cross-Registered, Data Science @ Harvard (Spring '24)
+- Study Abroad, Statistics @ University College London (Spring '19)
+
+### List of all the classes I've taken 
+
+**MBAn, Business Analytics @ MIT**
+
+Spring '24
+- 15.287 Communicating with Data
+- 15.665 Power and Negotiation
+- 15.773 Hands on Deep Learning
+- 15.783 Product Development Methods
+- 15.819 Marketing and Product Analytics
+- ECON2355 Unleashing Novel Data at Scale (Harvard)
+
+Fall '23
+- 15.072 Advanced Analytics Edge
+- 15.093 Optimization Methods
+- 15.095 Machine Learning Under a Modern Optimization Lens
+- 15.575 Analytics Lab
+- 15.681 From Analytics to Action
+
+
