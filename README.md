@@ -50,15 +50,15 @@ We are still working on the initial product but these are some snapshots of what
 
 **User Logs In By Connecting Their Wallet**
 
-![Wallet](https://github.com/vtian72/portfolio/blob/main/assets/img/wallet.png)
+![Wallet](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/wallet.png)
 
 **Authentication Process**
 
-![Authentication](https://github.com/vtian72/portfolio/blob/main/assets/img/authentication.png)
+![Authentication](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/authentication.png)
 
 **Select Which Chats to Analyze**
 
-![Chats](https://github.com/vtian72/portfolio/blob/main/assets/img/chats.png)
+![Chats](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/chats.png)
 
 **Final Product View**
 
