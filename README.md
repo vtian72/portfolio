@@ -3,10 +3,14 @@
 #### Technical Skills: Python, R, SQL, Java, Julia, AWS, GCP, Snowflake, Azure, PowerBI
 
 ## Education
-- MBAn, Analytics | MIT (August 2024)
-- Cross Registered, Data Science | Harvard (Spring 2024)
-- BSc, Mathematics and Statistics | The University of Melbourne (December 2020)
-- Study Abroad, Statistics | University College London (Spring 2019)
+
+| Degree                                 | School                              | Completion Date |
+|----------------------------------------|-------------------------------------|-----------------|
+| MBAn, Analytics                        | MIT                                 | August 2024     |
+| Cross Registered, Data Science         | Harvard                             | Spring 2024     |
+| BSc, Mathematics and Statistics        | The University of Melbourne         | December 2020   |
+| Study Abroad, Statistics               | University College London           | Spring 2019     |
+
 
 ## Experience
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
