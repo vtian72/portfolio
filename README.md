@@ -9,7 +9,6 @@
 
 Was also
 
-|----------------------------------------|-------------------------------------|-----------------|
 | Cross Registered, Data Science         | Harvard                             | Spring 2024     |
 | Study Abroad, Statistics               | University College London           | Spring 2019     |
 
