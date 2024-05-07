@@ -36,16 +36,20 @@ These were some events I helped organize at SBC
 
 # Check out some of my projects!
 
-### AI-Driven Chat Sentiment Insights 
+### AI-Driven Chat Sentiment Insights (Work in Progress)
+[Test-MVP](https://bri3f.ai/dashboard)
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers?
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Get Real: Real vs Fake Image Detection
+[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
 
 ### Strategic Microchip Supply Chain Route Optimization 
+[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Enhancing_Efficiency_in_Microchip_Distribution__Strategic_Supply_Chain_Route_Optimization.pdf)
 
 ### Fetal Health Classification Using Cardiotocography Data
+[Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Fetal%20Health%20Classification.pdf)
 
 
 
