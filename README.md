@@ -4,12 +4,12 @@
 
 ## Education
 
-Degrees:
+Degrees
 
 | MBAn, Analytics                        | MIT                                 | August 2024     |
 | BSc, Mathematics and Statistics        | The University of Melbourne         | December 2020   |
 
-Shorter term studies:
+Shorter term studies
 
 | Cross Registered, Data Science         | Harvard                             | Spring 2024     |
 | Study Abroad, Statistics               | University College London           | Spring 2019     |
