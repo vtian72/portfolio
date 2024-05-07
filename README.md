@@ -1,6 +1,7 @@
 # Data Scientist
 
 **Programming: Python, R, SQL**
+
 **Tools: GCP, Snowflake, PowerBI**
 
 ## Education
