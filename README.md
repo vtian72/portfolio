@@ -123,9 +123,15 @@ The results table indicates that no single model outperforms others across all m
 
 Today, GenAI has the capability to produce realistic product images swiftly, significantly accelerating the process of creating scam websites and enhancing social engineering strategies employed by scammers. Our project aims to develop a customized model that can classify product images as real or AI-generated with a focus on e-commerce product images that can be used for scams. Potentially, our product can be combined with other scam detection tools, e.g. scanning the registered domain owner, the activity of the IP address etc, to design an effective fake product scam detector. 
 
+![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/ai_real_images.png)
+
+**These are all AI-generated images!**
+
 <u>Data</u>
 
 Our dataset comprises 6,000 images. We randomly sampled 3,000 real product images from the Amazon Berkeley Objects dataset and ran it through Google Gemini Pro to generate a one-line image caption of the object. These descriptions are then used to generate a “like-for-like” fake product image dataset comprising 3000 images using DALL-E 2, to create balanced classes for training our dataset. In creating our “real” product dataset, we made the effort to select a variety of product types against varying backgrounds. This is so that we are able to train a model on the diverse range of images a GenAI model can produce.
+
+![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/ai_real_process.png)
 
 <u>Model Training</u>
 
