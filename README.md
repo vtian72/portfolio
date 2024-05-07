@@ -259,6 +259,8 @@ The final solution resulted in a cost of $5,365,566,57 which is $3,512,675.32 or
 
 ### Fetal Health Classification Using Cardiotocography Data 👶
 
+Child and maternal mortality are urgent global concerns. The UN targets ending preventable deaths in newborns and under-5 children by 2030. Cardiotocograms (CTGs) provide vital fetal health data using ultrasound pulses, allowing timely interventions. This cost-effective technology significantly reduces child and maternal mortality, especially in resource-constrained areas. The project aim is to classify fetal health to prevent child and maternal mortality.
+
 ![Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/fetal_health.png)
 
 **Tools: Python, SMOTE**
@@ -266,6 +268,9 @@ The final solution resulted in a cost of $5,365,566,57 which is $3,512,675.32 or
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Fetal%20Health%20Classification.pdf)
 
 ### Enhancing Automotive Customer Segmentation through Comprehensive Imputation Techniques 
+
+An automotive company aims to expand into new markets by introducing its current product lineup (P1, P2, P3, P4, and P5). Extensive market research indicates similarities between the behavior of the new market and the existing one. In their current market, the sales team has categorized customers into four segments (A, B, C, D) and implemented targeted outreach and communication for each segment, resulting in remarkable success. The company intends to apply the same successful strategy to the new markets, where they have identified 2627 potential customers.
+Our task at hand is to assist the manager in accurately predicting the appropriate segment for these new customers.
 
 ![Image](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/ml.png)
 
