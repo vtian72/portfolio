@@ -12,7 +12,7 @@ These were some events I helped organize at SBC
 - AMA: Bitcoin Pizza Party - Nov 21, 2023
 - MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
 
-## Experience (Please refer to my resume!)
+## Experience 
 
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
 - MIT Capstone
