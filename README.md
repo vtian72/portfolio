@@ -204,9 +204,18 @@ The results table indicates that no single model outperforms others across all m
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ## Strategic Microchip Supply Chain Route Optimization 🚢
+
+<u>Goal</u>
+
+The objective for this project was to help a global microchip producer design an optimal distribution network that incorporates warehouses, shipping routes, and courier services to create the most economical supply chain possible. We wish to minimize total costs, comprising warehouse operations and transportation expenses while adhering to the constraints of demand, supply and shipping logistics.
+
+<u>Baseline</u>
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Enhancing_Efficiency_in_Microchip_Distribution__Strategic_Supply_Chain_Route_Optimization.pdf)
 
-## Fetal Health Classification Using Cardiotocography Data 👶
+## Other projects you can check out!
+
+### Fetal Health Classification Using Cardiotocography Data 👶
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Fetal%20Health%20Classification.pdf)
 
 
