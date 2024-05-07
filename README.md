@@ -48,6 +48,8 @@ We will be using AWS (S3, DynamoDB) to store our data.
 
 We are still working on the initial product but here is a sneak peek of what we have built so far!
 
+**Tools: Python, AWS (S3, DynamoDB), LLMs (GPT-3, GPT-4, Gemini)**
+
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/tool.png)
 
 ### Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
@@ -111,6 +113,8 @@ Example 3
 
 The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
 
+**Tools: Python, LLMs (GPT-2, GPT-DaVinci)**
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Get Real: Real vs Fake Image Detection 🪪
@@ -127,10 +131,11 @@ Our dataset comprises 6,000 images. We randomly sampled 3,000 real product image
 
 We applied transfer learning on the following models with only the output layer trained. 
 
-1. VGG-19, which consists of 19 layers (including 16 convolutional layers, 3 fully connected layers, 5 MaxPooling layers and 1 softmax layer), and it is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
-2. ResNet50, which comprises “skip connections” that allow gradients to flow through the network directly without passing through non-linear activation functions, and alleviates the vanishing gradient problem and enable the network to converge faster, allowing for the training for very deep networks.6 This helps in learning complex and subtle patterns, while improving training efficiency.
-3. EfficientNet series, which are CNNs that use a compound scaling method to scale network width, depth and resolution. They use Mobile Inverted Bottleneck Convolution (MBConv) blocks in its architecture to focus on the most informative features of the input data, and are designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
+1. **VGG-19**, which consists of 19 layers (including 16 convolutional layers, 3 fully connected layers, 5 MaxPooling layers and 1 softmax layer), and it is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
+2. **ResNet50**, which comprises “skip connections” that allow gradients to flow through the network directly without passing through non-linear activation functions, and alleviates the vanishing gradient problem and enable the network to converge faster, allowing for the training for very deep networks.6 This helps in learning complex and subtle patterns, while improving training efficiency.
+3. **EfficientNet** series, which are CNNs that use a compound scaling method to scale network width, depth and resolution. They use Mobile Inverted Bottleneck Convolution (MBConv) blocks in its architecture to focus on the most informative features of the input data, and are designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
 
+**Tools: Python (Keras, TensorFlow), GenAI (Gemini, DALL-E 2, DALL-E 3)**
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
 
