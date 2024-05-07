@@ -42,7 +42,7 @@ These were some events I helped organize at SBC
 
 Currently leading a team to develop the first end-to-end AI-powered analytics tool that scrapes text data from Telegram, Discord (TBD) and Twitter (TBD) to generate personalized market and sentiment analysis insights using LLMs. 
 
-In our product workflow, when a user links their social media accounts, we automatically gather all their message data. Subsequently, we employ conventional techniques like Named Entity Recognition (NER) and TF-IDF to extract valuable features. These features are then transformed into embeddings, which are used to cluster related messages. Finally, we feed this clustered data into a Language Model (LM) such as GPT-3, GPT-4, or Gemini to generate the final outputs. Looking ahead, we plan to refine our LM model further using Reinforcement Learning from Human Feedback (RLHF), by presenting it with examples of effective and useful summaries.
+In our product workflow, when a user links their social media accounts, we automatically gather all their message data. Subsequently, we employ conventional techniques like **Named Entity Recognition (NER) and TF-IDF** to extract valuable features. These features are then transformed into embeddings, which are used to cluster related messages. Finally, we feed this clustered data into a **Language Model (LM) such as GPT-3, GPT-4, or Gemini** to generate the final outputs. Looking ahead, we plan to **refine our LM model further using Reinforcement Learning from Human Feedback (RLHF)**, by presenting it with examples of effective and useful summaries.
 
 We will be using AWS (S3, DynamoDB) to store our data.
 
@@ -60,11 +60,11 @@ The objective is to assess the ability of generative AI models to emulate Willia
 
 GPT-2 and GPT DaVinci were finetuned on 1k/48k rows of data from the Shakescleare dataset, consisting of modern English passages alongside their Shakespearean translation. We also utilized the output by the Style Transformer model (Reformulating Unsupervised Style Transfer as Paraphrase Generation, by Kalpesh Krishna, John Wieting, Mohit Iyyer).
 
-To fine-tune GPT-2 a specialized formatting was adopted. Each row of data was transformed into the following:
+To **fine-tune GPT-2 a specialized formatting was adopted**. Each row of data was transformed into the following:
 
 \<s> (start token) + English translation + \</s> (end token) + >>>> + \<p> (start token for Shakespeare translation) + Shakespearean translation + \</p> (end token for Shakespeare translation)
 
-Since DaVinci as inherest prompt-completion functionality, we structured the dataset as:
+Since **DaVinci has inherent prompt-completion functionality**, we structured the dataset as:
 
 prompt: System role: You are an expert author on Shakespeare. Write the following quote like how Shakespeare would say it: + English translation
 
@@ -114,6 +114,14 @@ The results table indicates that no single model outperforms others across all m
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
 ### Get Real: Real vs Fake Image Detection 🪪
+
+<u>Goal</u>
+
+Today, GenAI has the capability to produce realistic product images swiftly, significantly accelerating the process of creating scam websites and enhancing social engineering strategies employed by scammers. Our project aims to develop a customized model that can classify product images as real or AI-generated with a focus on e-commerce product images that can be used for scams. Potentially, our product can be combined with other scam detection tools, e.g. scanning the registered domain owner, the activity of the IP address etc, to design an effective fake product scam detector. 
+
+<u>Data</u>
+
+
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Project%20Report%20-%20Fake%20Product%20Scam%20Detector.pdf)
 
 ### Strategic Microchip Supply Chain Route Optimization 🚢
