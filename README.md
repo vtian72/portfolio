@@ -8,12 +8,6 @@ I'm currently...
 - Working on my capstone project @ Macy's to build customer price range models and recommendation systems
 - Wrapping up my time as VP @ Sloan Blockchain Club (SBC) 🥲
 
-These were some events I helped organize at SBC
-
-- Web3 Entrepreneurship with Avalanche's Global Accelerator - Feb 14, 2024
-- AMA: Bitcoin Pizza Party 🍕 - Nov 21, 2023
-- MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
-
 ## Experience 
 
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
@@ -285,12 +279,20 @@ Our task at hand is to assist the manager in accurately predicting the appropria
 - Cross-Registered, Data Science @ Harvard (Spring '24)
 - Study Abroad, Statistics @ University College London (Spring '19)
 
+### Leadership
+
+These were some events I helped organize at SBC
+
+- Web3 Entrepreneurship with Avalanche's Global Accelerator - Feb 14, 2024
+- AMA: Bitcoin Pizza Party 🍕 - Nov 21, 2023
+- MIT x Harvard Business School x Harvard Law School Mixer - Oct 22, 2023
+
 ### List of all the classes I've taken 
 
 **MBAn, Business Analytics @ MIT**
 
 Spring '24
-- 15.287 Communicating with Data
+- 15.287 Communicating with Data 
 - 15.665 Power and Negotiation
 - 15.773 Hands on Deep Learning
 - 15.783 Product Development Methods
@@ -304,4 +306,36 @@ Fall '23
 - 15.575 Analytics Lab
 - 15.681 From Analytics to Action
 
+**BSc, Mathematics and Statistics @ University of Melbourne**
 
+Sem 2 - 2020
+- MAST20018 Discrete Maths and Operations Research
+- MAST30028 Numerical Methods & Scientific Computing
+- MAST30001 Stochastic Modelling
+- MAST30027 Modern Applied Statistics
+
+Sem 1 - 2020
+- MAST20009 Vector Calculus
+- MAST20026 Real Analysis
+- MAST30025 Linear Statistical odels
+- COMP30027 Machine Learning
+  
+Sem 2 - 2019
+- COMP20008 Elements of Data Processing
+- COMP30020 Declarative Programming
+- MAST10007 Linear Algebra
+- MAST20005 Statistics
+
+Credit via University of Western Australia
+- COMP10001 Foundations of Computing
+- COMP10002 Foundations of Algorithms
+- COMP20003 Algorithms and Data Structures
+- INFO20003 Database Systems
+- MAST10006 Calculus 2
+- MAST20006 Probability for Statistics
+
+**Study Abroad, Statistics @ University College London**
+- MATH0031 Financial Mathematics
+- MATH0057 Probability and Statistics
+- STAT0007 Stochastic Processes
+- STAT0023 Computing for Practical Statistics
