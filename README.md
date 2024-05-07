@@ -109,7 +109,7 @@ Example 3
 | Style Transformer A| I beg your, sir, be patient                                        |
 | Style Transformer B| I beg your, sir, be patient                                        |
 
-
+The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
 
 [Report](https://github.com/vtian72/portfolio/blob/main/assets/files/Shakespeare%20Style.pdf)
 
