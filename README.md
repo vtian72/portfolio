@@ -1,18 +1,10 @@
-# Welcome to my website!
+# Data Scientist
 
-My name is Vincent and I'm a current Master's of Business Analytics student at MIT. Prior to joining MIT I worked for ~3 years as a data scientist across health & government and retail product analytics.
+I'm currently...
 
-## Education
-
-Degrees
-
-| MBAn, Analytics                        | MIT                                 | August 2024     |
-| BSc, Mathematics and Statistics        | The University of Melbourne         | December 2020   |
-
-Shorter term studies
-
-| Cross Registered, Data Science         | Harvard                             | Spring 2024     |
-| Study Abroad, Statistics               | University College London           | Spring 2019     |
+- Completing my Master's in Business Analytics (MBAn) @ MIT graduating in August 2024
+- Working on my capstone project @ Macy's to build customer price range models and recommendation systems
+- Wrapping up my time as VP @ Sloan Blockchain Club 🥲
 
 ## Technical Skills
 
@@ -20,21 +12,28 @@ Shorter term studies
 
 **Tools: GCP, Snowflake, PowerBI**
 
-## Experience
+## Experience (Please find more detail on my resume!)
+
 **Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
-- Performing ongoing exploratory data analysis and feature engineering using BigQuery SQL and VertexAI on 1B rows of transaction, customer, loyalty and product data 
--	Building customer price brand models and refining recommender systems for personalized e-commerce/in-store experiences
--	Presenting to non-technical audiences, discussing product use cases with business stakeholders and directors 
+- MIT Capstone Project
+- Building customer price range models and recommendation systems
+- Python, SQL, BigQuery, VertexAI
+
+**Data Scientist Intern @ Handle Global (_Sep 2023 - Dec 2023_)**
+- MIT Analytics Lab
+- Comparing medical equipment prices to inflation and forecasting future prices
+- Python, ARIMA, Prophet
 
 **Data Scientist @ Quantium (_Feb 2021 - June 2023_)**
-- Elevated XGBoost models by 2% in Python, introducing the state government’s first daily population estimation method, enhancing risk planning across all suburban areas during Covid-19
-- Pioneered engagement metrics and XGBoost models in R for churn identification; presented to product executives
-- Led a 5 person PowerBI workstream on a $400k project to develop an end-to-end tool that analyzes trends in education and health, aiding in identification of at-risk communities; led to a $2M contract extension
-- Engineered automated decision support tool pipeline used in daily meetings by Emergency Management Commissioner and Victorian Chief Medical Officer, reduced weekly labor by 14 hours 
-- Collaborated with Product Managers and Engineers to address client inquiries, plan tasks and facilitate debugging
-- Mentored 10 Associate Data Scientists team members in Python, SQL, Git over one year
+- Health & Government, Product Analytics
+- Python (XGBoost, Dash Plotly), R, SQL, Snowflake, Azure Data Factory, PowerBI
 
-## Projects
+**Data Scientist Intern @ Fortescue Metals Group (_Nov 2020 - Feb 2021_)**
+- Machine Learning & AI Team
+- Using oil sample data to predict oil quality
+- Python (scikit-learn, LightGBM, XGBoost, fast.ai), AWS Sagemaker, AWS MLOps
+
+# Check out some of my projects!
 
 ## Leadership
 
