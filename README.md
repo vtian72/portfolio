@@ -1,8 +1,11 @@
 # Data Scientist
 
-#### Technical Skills: Python, R, SQL, Java, Julia, AWS, GCP, Snowflake, Azure, PowerBI
+#### Programming: Python, R, SQL, Julia, Java, C, MATLAB, SAS
+#### Tools: GCP, Snowflake, AWS, Azure, PowerBI
 
 ## Education
+
+Degrees:
 
 | MBAn, Analytics                        | MIT                                 | August 2024     |
 | BSc, Mathematics and Statistics        | The University of Melbourne         | December 2020   |
