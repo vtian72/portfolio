@@ -1,6 +1,6 @@
 # Welcome! 
 
-Hey there! I'm Vincent, a Data Scientist based in Cambridge, MA, but originally from Perth, Australia 🇦🇺
+Hey there! I'm Vincent, a Data Scientist with ~3 years of experience based in Cambridge, MA, but originally from Perth, Australia 🇦🇺
 
 I'm currently...
 
