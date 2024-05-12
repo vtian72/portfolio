@@ -10,12 +10,12 @@ I'm currently...
 
 ## Experience 
 
-**Data Scientist Intern @ Macy's (_Feb 2024 - Present_)**
+**Data Scientist @ Macy's (_Feb 2024 - Present_)**
 - MIT Capstone 👕
 - Building customer price range models and recommendation systems 
 - Python, SQL, BigQuery, VertexAI
 
-**Data Scientist Intern @ Handle Global (_Sep 2023 - Dec 2023_)**
+**Data Scientist @ Handle Global (_Sep 2023 - Dec 2023_)**
 - MIT Analytics Lab 🏥
 - Comparing medical equipment prices to inflation and forecasting future prices 
 - Python, ARIMA, Prophet
