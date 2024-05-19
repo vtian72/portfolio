@@ -136,7 +136,7 @@ We also embedded the models into a Chrome Extension which can be used to determi
 
 <u>Goal</u>
 
-The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score.
+The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score (refer to report for more detail).
 
 <u>Finetuning</u>
 
@@ -155,15 +155,6 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 <u>Results</u>
 
 ST: Style Transformer
-
-| Metric            | GPT-2  | GPT-DaVinci | ST-A  | ST-B  |
-|-------------------|--------|-------------|-------|-------|
-| Style Classifier  | 53.21% | 79.69%      | 28.66%| 34.23%|
-| BLEU Score        | 6.74%  | 5.59%       | 7.21% | 7.32% |
-| Rouge-N Score     | 14.52% | 19.59%      | 22.91%| 20.91%|
-| Cosine Similarity | 83.29% | 87.74%      | 93.45%| 93.30%|
-| Jaccard Similarity| 19.76% | 23.56%      | 36.38%| 34.40%|
-| PINC Score        | 85.61% | 80.88%      | 76.66%| 78.20%|
 
 Example 1
 
@@ -198,7 +189,7 @@ Example 3
 | ST-A           | I beg your, sir, be patient                                 |
 | ST-B           | I beg your, sir, be patient                                 |
 
-The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
+The examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
 
 **Tools: Python, LLMs (GPT-2, GPT-DaVinci)**
 
@@ -222,8 +213,7 @@ min(Warehouse Cost + Transportation Cost)
 
 Some constraints that we needed to account for:
 
-- each order needs to be assigned to a warehouse
-- each order needs to be assigned to a freight assignment
+- each order needs to be assigned to a warehouse and freight
 - each warehouse has a daily order capacity
 - each product can be stored in some warehouses only
 - some warehouses can only service certain customers
