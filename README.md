@@ -74,13 +74,14 @@ We applied transfer learning on the following models with only the output layer 
 
 The following models were trained using the A-100 GPU on Google Colab.
 
-| Model            | Accuracy | False (-)ve Rate | DALL-E 3 Accuracy | Training Time (s) |
-|------------------|----------|------------------|-------------------|-------------------|
-| VGG-19           | 95.11%   | 6.62%            | 24.00%            | 245               |
-| ResNet50         | 99.00%   | 0.45%            | 48.84%            | 270               |
-| EfficientNetB0   | 99.22%   | 0.45%            | 50.39%            | 293               |
-| EfficientNetB3   | 99.00%   | 0.89%            | 46.51%            | 515               |
-| EfficientNetB7   | 99.44%   | 0.88%            | 48.06%            | 1431              |
+| Model            | Accuracy | False (-)ve Rate | Training Time (s) |
+|------------------|----------|------------------|-------------------|
+| VGG-19           | 95.11%   | 6.62%            | 245               |
+| ResNet50         | 99.00%   | 0.45%            | 270               |
+| EfficientNetB0   | 99.22%   | 0.45%            | 293               |
+| EfficientNetB3   | 99.00%   | 0.89%            | 515               |
+| EfficientNetB7   | 99.44%   | 0.88%            | 1431              |
+
 
 
 The following show the confusion matrix on 900 samples of testing data.
@@ -155,12 +156,17 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 
 <u>Results</u>
 
-| Model Output        | Style Classifier | BLEU Score | Rouge-N Score | Cosine Similarity | Jaccard Similarity | PINC Score |
-|---------------------|------------------|------------|---------------|-------------------|--------------------|------------|
-| GPT-2               | 53.21%           | 6.74%      | 14.52%        | 83.29%            | 19.76%             | 85.61%     |
-| GPT-DaVinci         | 79.69%           | 5.59%      | 19.59%        | 87.74%            | 23.56%             | 80.88%     |
-| Style Transformer A | 28.66%           | 7.21%      | 22.91%        | 93.45%            | 36.38%             | 76.66%     |
-| Style Transformer B | 34.23%           | 7.32%      | 20.91%        | 93.30%            | 34.40%             | 78.20%     |
+| Metric            | GPT-2  | GPT-DaVinci | ST-A  | ST-B  |
+|-------------------|--------|-------------|-------|-------|
+| Style Classifier  | 53.21% | 79.69%      | 28.66%| 34.23%|
+| BLEU Score        | 6.74%  | 5.59%       | 7.21% | 7.32% |
+| Rouge-N Score     | 14.52% | 19.59%      | 22.91%| 20.91%|
+| Cosine Similarity | 83.29% | 87.74%      | 93.45%| 93.30%|
+| Jaccard Similarity| 19.76% | 23.56%      | 36.38%| 34.40%|
+| PINC Score        | 85.61% | 80.88%      | 76.66%| 78.20%|
+
+ST: Style Transformer
+
 
 Example 1
 
