@@ -48,7 +48,7 @@ We are still working on the initial product but here is a sneak peek of what we 
 
 ## Get Real: Real vs Fake Image Detection 🪪
 
-<u>**Goal**</u>
+**<u>Goal</u>**
 
 Today, GenAI has the capability to produce realistic product images swiftly, significantly accelerating the process of creating scam websites and enhancing social engineering strategies employed by scammers. Our project aims to develop a customized model that can classify product images as real or AI-generated with a focus on e-commerce product images that can be used for scams. Potentially, our product can be combined with other scam detection tools, e.g. scanning the registered domain owner, the activity of the IP address etc, to design an effective fake product scam detector. 
 
@@ -56,13 +56,13 @@ Today, GenAI has the capability to produce realistic product images swiftly, sig
 
 **These are all AI-generated images!**
 
-<u>**Data**</u>
+**<u>Data</u>**
 
 Our dataset comprises 6,000 images. We randomly sampled 3,000 real product images from the Amazon Berkeley Objects dataset and ran it through Google Gemini Pro to generate a one-line image caption of the object. These descriptions are then used to generate a “like-for-like” fake product image dataset comprising 3000 images using DALL-E 2, to create balanced classes for training our dataset. In creating our “real” product dataset, we made the effort to select a variety of product types against varying backgrounds. This is so that we are able to train a model on the diverse range of images a GenAI model can produce.
 
 ![Dashboard](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/ai_real_process.png)
 
-<u>**Model Training**</u>
+**<u>Model Training</u>**
 
 We applied transfer learning on the following models with only the output layer trained. 
 
@@ -70,7 +70,7 @@ We applied transfer learning on the following models with only the output layer 
 2. **ResNet50**, alleviates the vanishing gradient problem, allowing for the training for very deep networks
 3. **EfficientNet** capable of generalizing well on unseen data.
 
-<u>**Results**</u>
+**<u>Results</u>**
 
 The following models were trained using the A-100 GPU on Google Colab.
 
@@ -110,7 +110,7 @@ The results show that VGG-19 may not be the best at discerning the false images 
 
 In comparison, ResNet50 was able to improve drastically compared to VGG19 in the number of False Positives and False Negatives, i.e we are now able to flag out fake images as image and real images as real better.
 
-<u>**Performance on newer GenAI models**</u>
+**<u>Performance on newer GenAI models</u>**
 
 To mimic real-world conditions and test our hypothesis on whether the model performs better on older GenAI models, we also created a variety of GenAI images on newer GenAI models like DALL-E 3, which are unseen to our model. Expectedly, our model performs poorly on the DALL-E 3 dataset. We compared the fine-tuned models fine-tuned over 20 epochs for consistency. EfficientNetB0 performs best on the unseen GenAI data, due to its advanced architecture features like the squeeze-and-excitation optimization and MBConv blocks that allow it to learn both coarse and fine features from the data and make them more adaptable to different types of images. 
 
@@ -121,7 +121,7 @@ Of the 129 DALL-E 3 images tested, the following results were derived:
 
 This is testament to DALL-E 3’s ability to generate convincing images, but also highlights the challenges in updating detection algorithms to keep up with the advancements in GenAI image generation.
 
-<u>**GetReal Chrome Extension!**</u>
+**<u>GetReal Chrome Extension!</u>**
 
 We also embedded the models into a Chrome Extension which can be used to determine if images online are real or fake!
 
@@ -134,11 +134,11 @@ We also embedded the models into a Chrome Extension which can be used to determi
 
 ## Is It Possible to Imitate Shakespeare with LLMs and Style Transformers? 🎭
 
-<u>**Goal**</u>
+**<u>Goal</u>**
 
 The objective is to assess the ability of generative AI models to emulate William Shakespeare's unique writing style accurately. This entails comparing the performance of different models using a range of metrics designed to measure stylistic accuracy, including BLEU, Rouge-N, Cosine Similarity, Jaccard Similarity, and PINC Score (refer to report for more detail).
 
-<u>**Finetuning**</u>
+**<u>Finetuning</u>**
 
 GPT-2 and GPT DaVinci were finetuned on 1k/48k rows of data from the Shakescleare dataset, consisting of modern English passages alongside their Shakespearean translation. We also utilized the output by the Style Transformer model (Reformulating Unsupervised Style Transfer as Paraphrase Generation, by Kalpesh Krishna, John Wieting, Mohit Iyyer).
 
@@ -152,7 +152,7 @@ prompt: System role: You are an expert author on Shakespeare. Write the followin
 
 completion: This is how Shakespeare would say it: + Shakespearean translation
 
-<u>**Results**</u>
+**<u>Results</u>**
 
 ST: Style Transformer
 
@@ -196,15 +196,15 @@ The examples underscore the diverse capabilities of different models in reproduc
 
 ## Strategic Microchip Supply Chain Route Optimization 🚢
 
-<u>**Goal**</u>
+**<u>Goal</u>**
 
 The objective for this project was to help a global microchip producer design an optimal distribution network that incorporates warehouses, shipping routes, and courier services to create the most economical supply chain possible. We wish to minimize total costs, comprising warehouse operations and transportation expenses while adhering to the constraints of demand, supply and shipping logistics.
 
-<u>**Baseline**</u>
+**<u>Baseline</u>**
 
 We developed a baseline model for addressing this problem, known as the Yan-Tian Greedy Algorithm. The primary concept behind this approach involves a systematic iteration through all incoming orders. For each order, we initiate a search through available warehouses and their corresponding freight options, starting from the beginning of the list. The algorithm then assigns the order to the first suitable warehouse-freight pair it encounters, following a thorough evaluation to ensure that all necessary conditions are met before making the assignment. The cost of solution produced by the baseline model is $8,878,241.89.
 
-<u>**Formulating the Optimization Problem**</u>
+**<u>Formulating the Optimization Problem</u>**
 
 The overall objective function that we were minimizing was:
 
@@ -220,7 +220,7 @@ Some constraints that we needed to account for:
 - orders need to be shipped within a certain time
 - different parts of the carrier should not exceed a maximum weight
 
-<u>**Exploratory Data Analysis**</u>
+**<u>Exploratory Data Analysis</u>**
 
 ![EDA1](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/warehouse_to_port.png)
 
@@ -230,7 +230,7 @@ This shows that most warehouses are connected to only a single warehouse port an
 
 Most warehouses have negative correlation between cost per unit cost and daily order capacity. We should expect the warehouses with lower cost per unit to have the most number of orders allocated to it.
 
-<u>**Results**</u>
+**<u>Results</u>**
 
 ![Results](https://raw.githubusercontent.com/vtian72/portfolio/main/assets/img/sankey.png)
 
