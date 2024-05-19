@@ -66,9 +66,9 @@ Our dataset comprises 6,000 images. We randomly sampled 3,000 real product image
 
 We applied transfer learning on the following models with only the output layer trained. 
 
-1. **VGG-19**, which consists of 19 layers and is known for its simplicity and depth, but may require more computational resources for training and inference for a larger images.
-2. **ResNet50**, comprises “skip connections” which alleviates the vanishing gradient problem, allowing for the training for very deep networks. This helps in learning complex and subtle patterns, while improving training efficiency.
-3. **EfficientNet** designed to achieve superior efficiency in accuracy and computational usage. They are capable of generalizing well on unseen data.
+1. **VGG-19**, known for its simplicity and depth
+2. **ResNet50**, alleviates the vanishing gradient problem, allowing for the training for very deep networks
+3. **EfficientNet** capable of generalizing well on unseen data.
 
 <u>Results</u>
 
@@ -82,14 +82,12 @@ The following models were trained using the A-100 GPU on Google Colab.
 | EfficientNetB3   | 99.00%   | 0.89%            | 515               |
 | EfficientNetB7   | 99.44%   | 0.88%            | 1431              |
 
-
-
 The following show the confusion matrix on 900 samples of testing data.
 
-True Negative: Model correctly identifies images as fake
-True Positive:Model correctly identifies image as real
-False Negative: Model fails to flag out an image as fake
-False Positive: Model erroneously flags out an image as false when it is actually real
+True Negative (TN): Model correctly identifies images as fake
+True Positive (TP): Model correctly identifies image as real
+False Negative (FN): Model fails to flag out an image as fake
+False Positive (FP): Model erroneously flags out an image as false when it is actually real
 
 
 <u>Figure 3.1: Confusion Matrix for Fine-tuned VGG 19 model over 20 epochs</u>
@@ -97,8 +95,8 @@ False Positive: Model erroneously flags out an image as false when it is actuall
 |                 | **Predicted Labels**   |                    |
 |-----------------|-----------------------|--------------------|
 | **Actual Labels** | **Fake**              | **Real**           |
-| **Fake**          | True Negatives: 419   | False Negatives: 31|
-| **Real**         | False Positives: 13   | True Positives: 437|
+| **Fake**          | TN: 419   | FN: 31|
+| **Real**         | FP: 13   | TP: 437|
 
 The results show that VGG-19 may not be the best at discerning the false images from the real images, as the number of False Negatives are still quite high. 
 
@@ -107,8 +105,8 @@ The results show that VGG-19 may not be the best at discerning the false images 
 |                 | **Predicted Labels**   |                    |
 |-----------------|-----------------------|--------------------|
 | **Actual Labels** | **Fake**              | **Real**           |
-| **Fake**          | True Negatives: 448   | False Negatives: 2|
-| **Real**         | False Positives: 7   | True Positives: 443|
+| **Fake**          | TN: 448   | FN: 2|
+| **Real**         | FP: 7   | TP: 443|
 
 In comparison, ResNet50 was able to improve drastically compared to VGG19 in the number of False Positives and False Negatives, i.e we are now able to flag out fake images as image and real images as real better.
 
@@ -156,6 +154,8 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 
 <u>Results</u>
 
+ST: Style Transformer
+
 | Metric            | GPT-2  | GPT-DaVinci | ST-A  | ST-B  |
 |-------------------|--------|-------------|-------|-------|
 | Style Classifier  | 53.21% | 79.69%      | 28.66%| 34.23%|
@@ -165,38 +165,38 @@ completion: This is how Shakespeare would say it: + Shakespearean translation
 | Jaccard Similarity| 19.76% | 23.56%      | 36.38%| 34.40%|
 | PINC Score        | 85.61% | 80.88%      | 76.66%| 78.20%|
 
-ST: Style Transformer
-
-
 Example 1
 
-|--------------------|--------------------------------------------------------------------|
-| English            | My generosity to you is limitless as the sea, and my love is as deep |
-| Shakespeare        | My bounty is boundless as the sea, My love as deep                 |
-| GPT-2              | My goodness to thee is as infinite as the sea, And my love as deep |
-| GPT-DaVinci        | My love to you is sound, sans crack or flaw                        |
-| Style Transformer A| I’m boundless, love is deep                                        |
-| Style Transformer B| I’m boundless, love is deep                                        |
+
+|----------------|-------------------------------------------------------------|
+| English        | My generosity to you is limitless as the sea, and my love is as deep |
+| Shakespeare    | My bounty is boundless as the sea, My love as deep           |
+| GPT-2          | My goodness to thee is as infinite as the sea, And my love as deep |
+| GPT-DaVinci    | My love to you is sound, sans crack or flaw                  |
+| ST-A           | I’m boundless, love is deep                                  |
+| ST-B           | I’m boundless, love is deep                                  |
+
 
 Example 2
 
-|--------------------|--------------------------------------------------------------------|
-| English            | I’ll frown at them as they pass by, and they can react however they want |
-| Shakespeare        | I will frown as I pass by, and let them take it as they list       |
-| GPT-2              | I’ll frown at them as they pass by, And they may be as they will   |
-| GPT-DaVinci        | I’ll set upon them as they pass along                              |
-| Style Transformer A| I’ll frown and let them take it as they list it                    |
-| Style Transformer B| I’ll frown and let them take it as a listing                       |
+|----------------|-------------------------------------------------------------|
+| English        | I’ll frown at them as they pass by, and they can react however they want |
+| Shakespeare    | I will frown as I pass by, and let them take it as they list       |
+| GPT-2          | I’ll frown at them as they pass by, And they may be as they will   |
+| GPT-DaVinci    | I’ll set upon them as they pass along                              |
+| ST-A           | I’ll frown and let them take it as they list it                    |
+| ST-B           | I’ll frown and let them take it as a listing                       |
+
 
 Example 3
 
-|--------------------|--------------------------------------------------------------------|
-| English            | Please, sir, have patience                                         |
-| Shakespeare        | I do beseech you, sir, have patience                               |
-| GPT-2              | I pray you, sir, patience, I pray you sir, patience, I pray you    |
-| GPT-DaVinci        | Pray you, sir, have patience                                       |
-| Style Transformer A| I beg your, sir, be patient                                        |
-| Style Transformer B| I beg your, sir, be patient                                        |
+|----------------|-------------------------------------------------------------|
+| English        | Please, sir, have patience                                  |
+| Shakespeare    | I do beseech you, sir, have patience                        |
+| GPT-2          | I pray you, sir, patience, I pray you sir, patience, I pray you |
+| GPT-DaVinci    | Pray you, sir, have patience                                |
+| ST-A           | I beg your, sir, be patient                                 |
+| ST-B           | I beg your, sir, be patient                                 |
 
 The results table indicates that no single model outperforms others across all metrics, despite Style Transformer A exhibiting superior performance in 4 out of 6 metrics. Additionally, the examples underscore the diverse capabilities of different models in reproducing Shakespearean English. For example, in the first example, GPT-2 and DaVinci were able to retain the poetic depth of the original text whereas Style Transformers A and B simplified the phrase significantly.
 
