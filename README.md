@@ -74,13 +74,14 @@ We applied transfer learning on the following models with only the output layer 
 
 The following models were trained using the A-100 GPU on Google Colab.
 
-| Model            | Accuracy | AUC   | False (-)ve Rate | DALL-E 3 Accuracy | Training Time (s) |
-|------------------|----------|-------|------------------|-------------------|-------------------|
-| VGG-19 (20 epochs)| 95.11%  | 99.03%| 6.62%            | 24.00%            | 245               |
-| ResNet50 (20 epochs)| 99.00% | 99.95%| 0.45%            | 48.84%            | 270               |
-| EfficientNetB0 (20 epochs)| 99.22%| 99.97%| 0.45%       | 50.39%            | 293               |
-| EfficientNetB3 (20 epochs)| 99.00%| 99.98%| 0.89%       | 46.51%            | 515               |
-| EfficientNetB7 (20 epochs)| 99.44%| 99.93%| 0.88%       | 48.06%            | 1431              |
+| Model            | Accuracy | False (-)ve Rate | DALL-E 3 Accuracy | Training Time (s) |
+|------------------|----------|------------------|-------------------|-------------------|
+| VGG-19           | 95.11%   | 6.62%            | 24.00%            | 245               |
+| ResNet50         | 99.00%   | 0.45%            | 48.84%            | 270               |
+| EfficientNetB0   | 99.22%   | 0.45%            | 50.39%            | 293               |
+| EfficientNetB3   | 99.00%   | 0.89%            | 46.51%            | 515               |
+| EfficientNetB7   | 99.44%   | 0.88%            | 48.06%            | 1431              |
+
 
 The following show the confusion matrix on 900 samples of testing data.
 
