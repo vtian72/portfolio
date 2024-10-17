@@ -1,16 +1,14 @@
 # Welcome! 
 
-Hey there! I'm Vincent, a Data Scientist with 2.5 years of full-time experience based in Cambridge, MA, but originally from Perth, Australia 🇦🇺
+Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. I've just finished my Master's at MIT and studied Mathematics and Statistics at the University of Melbourne.
 
 I'm currently...
 
-- Completing my Master's in Business Analytics (MBAn) @ MIT graduating in August 2024
-- Working on my capstone project @ Macy's to build customer price range models and recommendation systems
-- Wrapping up my time as VP @ Sloan Blockchain Club (SBC) 🥲
+- Working within Product at TikTok -> building meaningful social relationships between users
 
 ## Experience 
 
-**Data Scientist @ Macy's (_Feb 2024 - Present_)**
+**Data Scientist @ Macy's (_Feb 2024 - Aug 2024)**
 - MIT Capstone 👕
 - Building customer price range models and recommendation systems 
 - Python, SQL, BigQuery, VertexAI
