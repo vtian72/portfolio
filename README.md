@@ -1,6 +1,6 @@
 # Welcome! 
 
-Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. 
+Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺
 
 I'm currently...
 
