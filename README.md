@@ -8,6 +8,9 @@ I'm currently...
 
 ## Experience 
 
+**Data Scientist @ TikTok (_Oct 2024 - Present)**
+- Helping relationship building between TikTok users ❤️
+
 **Data Scientist @ Macy's (_Feb 2024 - Aug 2024)**
 - MIT Capstone 👕
 - Building customer price range models and recommendation systems 
