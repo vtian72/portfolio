@@ -6,7 +6,7 @@ I'm currently...
 
 - Working within Product at TikTok -> building meaningful social relationships between users
 
-I completed my Master's at MIT 🦫, studied Mathematics and Statistics at the University of Melbourne ☕ and did a semester exchange at UCL in London 💂.
+I completed my Master's at MIT 🦫, studied Mathematics and Statistics at the University of Melbourne ☕ and did a semester exchange at UCL in London 💂
 
 ## Experience 
 
