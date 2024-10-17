@@ -1,10 +1,12 @@
 # Welcome! 
 
-Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. I completed my Master's at MIT, studied Mathematics and Statistics at the University of Melbourne and did a semester exchange at UCL in London.
+Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. 
 
 I'm currently...
 
 - Working within Product at TikTok -> building meaningful social relationships between users
+
+I completed my Master's at MIT 🦫, studied Mathematics and Statistics at the University of Melbourne and did a semester exchange at UCL in London 💂.
 
 ## Experience 
 
