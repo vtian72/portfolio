@@ -1,6 +1,6 @@
 # Welcome! 
 
-Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. I've just finished my Master's at MIT and studied Mathematics and Statistics at the University of Melbourne.
+Hey there! I'm Vincent, a Data Scientist based in San Jose, CA, but originally from Perth, Australia 🇦🇺. I completed my Master's at MIT, studied Mathematics and Statistics at the University of Melbourne and did a semester exchange at UCL in London.
 
 I'm currently...
 
