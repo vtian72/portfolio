@@ -10,10 +10,10 @@ I completed my Master's at MIT 🦫, studied Mathematics and Statistics at the U
 
 ## Experience 
 
-**Data Scientist @ TikTok (_Oct 2024 - Present)**
+**Data Scientist @ TikTok (_Oct 2024 - Present_)**
 - Helping relationship building between TikTok users ❤️
 
-**Data Scientist @ Macy's (_Feb 2024 - Aug 2024)**
+**Data Scientist @ Macy's (_Feb 2024 - Aug 2024_)**
 - MIT Capstone 👕
 - Building customer price range models and recommendation systems 
 - Python, SQL, BigQuery, VertexAI
